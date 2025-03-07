@@ -22,7 +22,7 @@ const HowItWorks = () => {
   return (
     <>
       <Navbar2 />
-      <section  className="md:px-12 px-8 mt-16 py-4 bg-[#C2EFD4]" data-aos="fade-in">
+      <section  className="md:px-12 px-8 md:mt-[5rem] mt-[11rem] py-4 bg-[#C2EFD4]" data-aos="fade-in">
         {/* for introduction */}
         <div className="mb-4">
           <h2 className="md:text-[36px] text-[26px] mb-4 text-hero_green  font-roboto font-bold text-center">
@@ -113,7 +113,7 @@ const HowItWorks = () => {
               <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold pl-4 mb-6 text-hero_green pt-[0.3px]">
               Order & Receive
               </h2>
-              <p className="text-hero_green lg:text-[12px] text-[18px] pl-4  font-poppins lg:w-[60%] w-full w-[70%] mb-6">
+              <p className="text-hero_green lg:text-[12px] text-[18px] pl-4  font-poppins lg:w-[60%] md:w-full w-[70%] mb-6">
               Make secure payment and track your order. Get your custom-made piece delivered to your doorstep
               </p>
               <div className="flex items-center justify-between">

@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
-  return (
-   <section className='px-8 py-8'>
+  return <section className="px-8 py-8"></section>;
+};
 
-   </section>
-  )
-}
-
-export default Footer
+export default Footer;
