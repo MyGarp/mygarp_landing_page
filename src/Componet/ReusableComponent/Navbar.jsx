@@ -42,10 +42,12 @@ const Navbar = () => {
             <li className="uppercase text-[14px] font-semibold text-hero_green hidden md:block">
               <a href="/">Home</a>
             </li>
-           <Link to="/Howitworks" className="text-hero_green font-semibold hidden md:block text-[14px] ">
-          
-           How it Works
-           </Link>
+            <Link
+              to="/Howitworks"
+              className="text-hero_green font-semibold  font-poppinshidden md:block text-[14px] "
+            >
+              How It Works
+            </Link>
             <li className="uppercase text-[14px] font-semibold  text-hero_green hidden md:block">
               <a href="">features</a>
             </li>
@@ -70,45 +72,46 @@ const Navbar = () => {
 
         {/* menu_icon for mobile screen */}
         <button onClick={toggleMenu} className="lg:hidden">
-          {isMenuOpen?<X/>:<AlignJustify/>}
+          {isMenuOpen ? <X /> : <AlignJustify />}
         </button>
-
       </nav>
 
       {/* navbar for mobile view */}
-      {isMenuOpen && (<div className=" pb-[10rem]"> 
-        <div className="lg:hidden w-full absolute left-0 top-16  bg-white flex-row py-4 px-4">
-       
-          <ul className="grid grid-cols-1  gap-6 font-poppins ">
-            <li className="uppercase text-[14px] font-semibold text-hero_green ">
-              <a href="/">Home</a>
-            </li>
-            <li className="uppercase text-[14px] font-semibold text-hero_green ">
-              <a href="">How it works</a>
-            </li>
-            <li className="uppercase text-[14px] font-semibold  text-hero_green ">
-              <a href="">features</a>
-            </li>
-            <li className="uppercase text-[14px] font-semibold text-hero_green ">
-              <a href="">contact</a>
-            </li>
-            <img src={Logo} alt="" className="w-[18px] " />
-          </ul>
-          <div className="flex gap-4 mt-4">
-            <Button
-              btnStyle="rounded-sm px-6 py-2 font-semibold border border-[#224F34] text-[12px] font-Poppins uppercase"
-              btnText="LOG IN"
-              btnFunc={gotoLogin}
-            />
-            <Button
-              btnStyle="rounded-sm px-6 py-2 font-semibold uppercase text-white text-[12px] font-Poppins bg-[#224F34]"
-              btnText="SIGN UP"
-              btnFunc={gotoSignup}
-            />
+      {isMenuOpen && (
+        <div className=" pb-[10rem]">
+          <div className="lg:hidden w-full absolute left-0 top-16  bg-white flex-row py-4 px-4">
+            <ul className="grid grid-cols-1  gap-6 font-poppins ">
+              <li className="uppercase text-[14px] font-semibold text-hero_green ">
+                <a href="/">Home</a>
+              </li>
+              <Link
+                to="/Howitworks"
+                className="uppercase font-poppins text-[14px] font-semibold text-hero_green"
+              >
+                How It works
+              </Link>
+              <li className="uppercase text-[14px] font-semibold  text-hero_green ">
+                <a href="">features</a>
+              </li>
+              <li className="uppercase text-[14px] font-semibold text-hero_green ">
+                <a href="">contact</a>
+              </li>
+              <img src={Logo} alt="" className="w-[18px] " />
+            </ul>
+            <div className="flex gap-4 mt-4">
+              <Button
+                btnStyle="rounded-sm px-6 py-2 font-semibold border border-[#224F34] text-[12px] font-Poppins uppercase"
+                btnText="LOG IN"
+                btnFunc={gotoLogin}
+              />
+              <Button
+                btnStyle="rounded-sm px-6 py-2 font-semibold uppercase text-white text-[12px] font-Poppins bg-[#224F34]"
+                btnText="SIGN UP"
+                btnFunc={gotoSignup}
+              />
+            </div>
           </div>
-       
-      </div>
-      </div>
+        </div>
       )}
     </>
   );

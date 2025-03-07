@@ -43,9 +43,9 @@ const Navbar2 = () => {
             <li className="uppercase text-[14px] font-semibold text-hero_green hidden md:block">
               <a href="/">Home</a>
             </li>
-           <Link to="/Howitworks" className="text-hero_green font-semibold hidden md:block text-[14px] ">
+           <Link to="/Howitworks" className="text-hero_green font-poppins font-semibold hidden md:block text-[14px] ">
           
-           How it Works
+           How It Works
            </Link>
             <li className="uppercase text-[14px] font-semibold  text-hero_green hidden md:block">
               <a href="">features</a>
@@ -86,8 +86,8 @@ const Navbar2 = () => {
             <li className="uppercase text-[14px] font-semibold text-hero_green ">
               <a href="/">Home</a>
             </li>
-            <li className="uppercase text-[14px] font-semibold text-hero_green ">
-              <a href="">How it works</a>
+            <li className="uppercase text-[14px] font-poppins font-semibold text-hero_green ">
+              <a href="">How It works</a>
             </li>
             <li className="uppercase text-[14px] font-semibold  text-hero_green ">
               <a href="">features</a>

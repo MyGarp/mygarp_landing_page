@@ -10,6 +10,7 @@ export default {
         roboto:['Roboto Mono', 'sans-serif'],
         poppins:['Poppins', 'sans-serif'],
         rufina:['Rufina', 'sans-serif'],
+        roboto_slab :['Roboto-Slab','sans-serif'],
       },
      colors:{
       hero_green:"#224F34",
