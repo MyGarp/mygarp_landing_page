@@ -31,13 +31,13 @@ const Navbar = () => {
         <div>
           <Link
             to="/"
-            className="font-roboto font-bold text-[24px] text-hero_green"
+            className="font-roboto font-bold  lg:text-[24px] md:text-[36px] text-[24px] text-hero_green"
           >
             MyGarp
           </Link>
         </div>
         {/* ul icon, login & signup container/div */}
-        <div className="md:flex items-center justify-center gap-4 hidden ">
+        <div className="lg:flex items-center justify-center gap-4 hidden ">
           <ul className="md:flex gap-4 font-poppins hidden">
             <li className="uppercase text-[14px] font-semibold text-hero_green hidden md:block">
               <a href="/">Home</a>
@@ -48,9 +48,13 @@ const Navbar = () => {
             >
               How It Works
             </Link>
-            <li className="uppercase text-[14px] font-semibold  text-hero_green hidden md:block">
-              <a href="">features</a>
-            </li>
+            <Link
+              to="/Features"
+              className="text-hero_green font-semibold  font-poppinshidden md:block text-[14px] "
+            >
+              Features
+            </Link>
+
             <li className="uppercase text-[14px] font-semibold text-hero_green hidden md:block">
               <a href="">contact</a>
             </li>
@@ -72,7 +76,11 @@ const Navbar = () => {
 
         {/* menu_icon for mobile screen */}
         <button onClick={toggleMenu} className="lg:hidden">
-          {isMenuOpen ? <X /> : <AlignJustify />}
+          {isMenuOpen ? (
+            <X size={30} />
+          ) : (
+            <AlignJustify size={30} className="" />
+          )}
         </button>
       </nav>
 
@@ -90,9 +98,12 @@ const Navbar = () => {
               >
                 How It works
               </Link>
-              <li className="uppercase text-[14px] font-semibold  text-hero_green ">
-                <a href="">features</a>
-              </li>
+              <Link
+              to="/Features"
+              className="text-hero_green font-semibold  font-poppinshidden md:block text-[14px] "
+            >
+              Features
+            </Link>
               <li className="uppercase text-[14px] font-semibold text-hero_green ">
                 <a href="">contact</a>
               </li>

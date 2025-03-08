@@ -47,9 +47,12 @@ const Navbar2 = () => {
           
            How It Works
            </Link>
-            <li className="uppercase text-[14px] font-semibold  text-hero_green hidden md:block">
-              <a href="">features</a>
-            </li>
+       <Link
+                  to="/Features"
+                  className="text-hero_green font-semibold  font-poppinshidden md:block text-[14px] "
+                >
+                  Features
+                </Link>
             <li className="uppercase text-[14px] font-semibold text-hero_green hidden md:block">
               <a href="">contact</a>
             </li>
@@ -89,9 +92,12 @@ const Navbar2 = () => {
             <li className="uppercase text-[14px] font-poppins font-semibold text-hero_green ">
               <a href="">How It works</a>
             </li>
-            <li className="uppercase text-[14px] font-semibold  text-hero_green ">
-              <a href="">features</a>
-            </li>
+               <Link
+                          to="/Features"
+                          className="text-hero_green font-semibold  font-poppinshidden md:block text-[14px] "
+                        >
+                          Features
+                        </Link>
             <li className="uppercase text-[14px] font-semibold text-hero_green ">
               <a href="">contact</a>
             </li>

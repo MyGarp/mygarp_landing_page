@@ -6,7 +6,7 @@ import Button from "./ReusableComponent/Button";
 
 const Login = () => {
   return (
-   <div className="md:px-8 px-0 md:pb-6 pb-2">
+   <div className="md:px-8 px-0 md:pb-4 pb-2">
     <section className='md:mt-24 mt-24 md:grid md:place-items-end md:justify-end grid place-items-center justify-center   '>
     {/* flexing two div */}
     <div className=' lg:flex lg:items-start lg:justify-start lg:gap-0  lg:mb-4  md:flex-row md:items-center md:justify-center md:w-full  grid grid-rows-2 place-items-center justify-center  '>

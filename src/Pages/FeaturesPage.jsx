@@ -1,18 +1,16 @@
 import React from 'react'
-import Login from '../Componet/Login'
+import Testimonial from '../Componet/Testimonial'
 import Navbar2 from '../Componet/ReusableComponent/Navbar2'
-import Navbar from '../Componet/ReusableComponent/Navbar'
 import Footer from '../Componet/ReusableComponent/Footer'
 
-
-const LoginPage = () => {
+const FeaturesPage = () => {
   return (
     <>
-    <Navbar2/>
-    <Login/>
+   <Navbar2/>
+    <Testimonial/>
     <Footer/>
     </>
   )
 }
 
-export default LoginPage
+export default FeaturesPage

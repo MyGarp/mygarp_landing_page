@@ -2,27 +2,29 @@ import React from "react";
 import Navbar2 from "./ReusableComponent/Navbar2";
 import Logo1 from "/roundone.svg";
 import Logo5 from "/Tailorequip.svg";
-import Logo2 from '/round2.svg'
-import Logo3 from "/round3.svg"
-import Logos from '/Group 106.svg'
+import Logo2 from "/round2.svg";
+import Logo3 from "/round3.svg";
+import Logos from "/Group 106.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 const HowItWorks = () => {
- 
   useEffect(() => {
     Aos.init({
       duration: 1000,
-      easing: "ease-in-out", 
+      easing: "ease-in-out",
       once: true,
     });
   }, []);
-  
+
   return (
     <>
       <Navbar2 />
-      <section  className="md:px-12 px-8 md:mt-[5rem] mt-[11rem] py-4 bg-[#C2EFD4]" data-aos="fade-in">
+      <section
+        className="md:px-12 px-8 md:mt-[5rem] mt-[11rem] py-4 bg-[#C2EFD4]"
+        data-aos="fade-in"
+      >
         {/* for introduction */}
         <div className="mb-4">
           <h2 className="md:text-[36px] text-[26px] mb-4 text-hero_green  font-roboto font-bold text-center">
@@ -61,10 +63,11 @@ const HowItWorks = () => {
             {/* second_box */}
             <div className="rounded-sm lg:w-[422px] md:w-full w-[300px] h-auto   bg-[#D9D9D9DD]">
               <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold pl-4 mb-6 text-hero_green">
-              Pick Your Designer
+                Pick Your Designer
               </h2>
               <p className="text-hero_green lg:text-[12px] md:text-[18px] text-[16px] pl-4 font-poppins lg:w-[60%] md:w-full w-[60%] mb-6">
-              Browse designer portfolios, reviews, and previous work. Choose the perfect creator for your style and budget.
+                Browse designer portfolios, reviews, and previous work. Choose
+                the perfect creator for your style and budget.
               </p>
               <div className="flex items-center justify-between">
                 {/* for image */}
@@ -92,10 +95,11 @@ const HowItWorks = () => {
             {/* fourth_box */}
             <div className="rounded-sm lg:w-[422px] w-[300px] md:w-full  h-auto  bg-[#D9D9D9DD] ">
               <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold capitalize  pl-4 mb-6 text-hero_green">
-               add your measurement
+                add your measurement
               </h2>
               <p className="text-hero_green lg:text-[12px] md:text-[18px] text-[16px]  pl-4  font-poppins lg:w-[40%] md:w-full w-[60%] mb-6">
-              Input your measurements for a perfect fit. Our detailed guide ensures accuracy for your chosen style.
+                Input your measurements for a perfect fit. Our detailed guide
+                ensures accuracy for your chosen style.
               </p>
               <div className="flex items-center justify-between">
                 {/* for image */}
@@ -111,10 +115,11 @@ const HowItWorks = () => {
             {/* fifth_box */}
             <div className="rounded-sm lg:w-[422px] md:w-full w-[300px] h-auto bg-[#D9D9D9DD]">
               <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold pl-4 mb-6 text-hero_green pt-[0.3px]">
-              Order & Receive
+                Order & Receive
               </h2>
               <p className="text-hero_green lg:text-[12px] text-[18px] pl-4  font-poppins lg:w-[60%] md:w-full w-[70%] mb-6">
-              Make secure payment and track your order. Get your custom-made piece delivered to your doorstep
+                Make secure payment and track your order. Get your custom-made
+                piece delivered to your doorstep
               </p>
               <div className="flex items-center justify-between">
                 {/* for image */}
