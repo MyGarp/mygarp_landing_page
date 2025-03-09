@@ -36,11 +36,11 @@ const HowItWorks = () => {
         </div>
         {/* end */}
         {/* div for 4 boxes and a centered image */}
-        <div className="lg:flex items-center justify-center flex-row">
+        <div className="lg:flex items-center justify-center md:flex-row">
           <div className="grid lg:grid-rows-1 gap-4 lg:place-items-start lg:justify-start place-items-center justify-center">
             {/* two box */}
             {/* first box */}
-            <div className="rounded-sm lg:w-[422px] md:w-full w-[300px] h-auto   bg-[#D9D9D9DD]">
+            <div className="rounded-sm w-full max-w-[400px]  h-auto   bg-[#D9D9D9DD]">
               <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold pl-4 mb-6 mt-4 text-hero_green">
                 Choose Your Style
               </h2>
@@ -61,7 +61,7 @@ const HowItWorks = () => {
               </div>
             </div>
             {/* second_box */}
-            <div className="rounded-sm lg:w-[422px] md:w-full w-[300px] h-auto   bg-[#D9D9D9DD]">
+            <div className="rounded-sm  w-full max-w-[400px] h-auto   bg-[#D9D9D9DD]">
               <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold pl-4 mb-6 text-hero_green">
                 Pick Your Designer
               </h2>
@@ -93,7 +93,7 @@ const HowItWorks = () => {
           <div className="grid md:grid-rows-1 gap-4 lg:place-items-end lg:justify-end place-items-center justify-center ">
             {/* two box */}
             {/* fourth_box */}
-            <div className="rounded-sm lg:w-[422px] w-[300px] md:w-full  h-auto  bg-[#D9D9D9DD] ">
+            <div className="rounded-sm  w-full max-w-[400px] h-auto  bg-[#D9D9D9DD] ">
               <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold capitalize  pl-4 mb-6 text-hero_green">
                 add your measurement
               </h2>
@@ -113,7 +113,7 @@ const HowItWorks = () => {
               </div>
             </div>
             {/* fifth_box */}
-            <div className="rounded-sm lg:w-[422px] md:w-full w-[300px] h-auto bg-[#D9D9D9DD]">
+            <div className="rounded-sm  w-full max-w-[400px] h-auto bg-[#D9D9D9DD]">
               <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold pl-4 mb-6 text-hero_green pt-[0.3px]">
                 Order & Receive
               </h2>

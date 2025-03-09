@@ -42,7 +42,7 @@ const Signup = () => {
         <div className="border-[#E2E8F0] w-auto h-[40px] border relative rounded-md  ">
               <input
                 type="text"
-                placeholder="Login your number "
+                placeholder="Enter your number "
                 className="md:pl-4 pl-4 w-full h-full focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
               />
               

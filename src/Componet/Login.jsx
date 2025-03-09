@@ -37,7 +37,7 @@ const Login = () => {
       <div className="border-[#E2E8F0] w-auto h-[40px] border relative rounded-md  ">
             <input
               type="text"
-              placeholder="Enter your Paaword "
+              placeholder="Enter your Password "
               className="pl-4 md:pl-2 w-full h-full focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
             />
           </div>

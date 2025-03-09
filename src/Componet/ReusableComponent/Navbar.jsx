@@ -31,33 +31,31 @@ const Navbar = () => {
         <div>
           <Link
             to="/"
-            className="font-roboto font-bold  lg:text-[24px] md:text-[36px] text-[24px] text-hero_green"
+            className="font-roboto font-bold  lg:text-[18px] md:text-[36px] text-[24px] text-hero_green"
           >
             MyGarp
           </Link>
         </div>
         {/* ul icon, login & signup container/div */}
         <div className="lg:flex items-center justify-center gap-4 hidden ">
-          <ul className="md:flex gap-4 font-poppins hidden">
+          <ul className="md:flex items-center justify-center gap-4 font-poppins hidden">
             <li className="uppercase text-[14px] font-semibold text-hero_green hidden md:block">
               <a href="/">Home</a>
-            </li>
+            </li> 
             <Link
               to="/Howitworks"
-              className="text-hero_green font-semibold  font-poppinshidden md:block text-[14px] "
+              className="text-hero_green font-semibold uppercase font-poppins hidden md:block text-[14px] "
             >
               How It Works
             </Link>
             <Link
               to="/Features"
-              className="text-hero_green font-semibold  font-poppinshidden md:block text-[14px] "
+              className="text-hero_green font-semibold uppercase  font-poppins hidden md:block text-[14px] "
             >
               Features
             </Link>
 
-            <li className="uppercase text-[14px] font-semibold text-hero_green hidden md:block">
-              <a href="">contact</a>
-            </li>
+           <Link className="uppercase text-[14px] font-semibold text-hero_green hidden md:block">Contact</Link>
             <img src={Logo} alt="" className="w-[18px] hidden md:block" />
           </ul>
           <div className="flex gap-4">
@@ -100,7 +98,7 @@ const Navbar = () => {
               </Link>
               <Link
               to="/Features"
-              className="text-hero_green font-semibold  font-poppinshidden md:block text-[14px] "
+              className="text-hero_green font-semibold uppercase font-poppins hidden md:block text-[14px] "
             >
               Features
             </Link>
