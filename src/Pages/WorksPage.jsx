@@ -1,10 +1,8 @@
 import React from 'react'
-
+import How from '../Component/How'
 const WorksPage = () => {
   return (
-    <>
-    <div className='text-2xl text-red-500'>works</div>
-    </>
+   <How/>
   )
 }
 

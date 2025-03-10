@@ -8,14 +8,7 @@ import Logo from '/caseGreen.svg'
 
 const Navbar2 = () => {
       //function to move to signup page
-  const gotoSignup = () => {
-    window.location.href = "/signup";
-  };
 
-  //function to move to Login page
-  const gotoLogin = () => {
-    window.location.href = "/Login";
-  };
 
   //function to use the menu btn in mobile screen
   const [isMenuOpen,setIsMenuOpen] = useState(false)
@@ -62,16 +55,20 @@ const Navbar2 = () => {
           </div>
           <div className="md:flex gap-4 hidden">
           <img src={Logo} alt="" className="w-[18px] hidden md:block" />
-            <Button
-              btnStyle="rounded-sm px-6 py-2 font-semibold border border-[#224F34] text-[12px] font-Poppins uppercase"
-              btnText="LOG IN"
-              btnFunc={gotoLogin}
-            />
-            <Button
-              btnStyle="rounded-sm px-6 py-2 font-semibold uppercase text-white text-[12px] font-Poppins bg-[#224F34]"
-              btnText="SIGN UP"
-              btnFunc={gotoSignup}
-            />
+          <Link to="/Login">
+                <Button
+                  btnStyle="rounded-sm px-6 py-2 font-semibold border border-[#224F34] text-[12px] font-Poppins uppercase"
+                  btnText="LOG IN"
+                />
+              </Link>
+
+              <Link to="/signup">
+                <Button
+                  btnStyle="rounded-sm px-6 py-2 font-semibold uppercase text-white text-[12px] font-Poppins bg-[#224F34]"
+                  btnText="SIGN UP"
+                />
+              </Link>
+           
           </div>
         
 
@@ -105,16 +102,19 @@ const Navbar2 = () => {
             <img src={Logo} alt="" className="w-[18px] " />
           </ul>
           <div className="flex gap-4 mt-4">
-            <Button
-              btnStyle="rounded-sm px-6 py-2 font-semibold border border-[#224F34] text-[12px] font-Poppins uppercase"
-              btnText="LOG IN"
-              btnFunc={gotoLogin}
-            />
-            <Button
-              btnStyle="rounded-sm px-6 py-2 font-semibold uppercase text-white text-[12px] font-Poppins bg-[#224F34]"
-              btnText="SIGN UP"
-              btnFunc={gotoSignup}
-            />
+          <Link to="/Login">
+                <Button
+                  btnStyle="rounded-sm px-6 py-2 font-semibold border border-[#224F34] text-[12px] font-Poppins uppercase"
+                  btnText="LOG IN"
+                />
+              </Link>
+
+              <Link to="/signup">
+                <Button
+                  btnStyle="rounded-sm px-6 py-2 font-semibold uppercase text-white text-[12px] font-Poppins bg-[#224F34]"
+                  btnText="SIGN UP"
+                />
+              </Link>
           </div>
        
       </div>

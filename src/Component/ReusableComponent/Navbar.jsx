@@ -5,16 +5,6 @@ import { Link } from "react-router-dom";
 import { AlignJustify, Menu, X } from "lucide-react";
 
 const Navbar = () => {
-  //function to move to signup page
-  const gotoSignup = () => {
-    window.location.href = "/signup";
-  };
-
-  //function to move to Login page
-  const gotoLogin = () => {
-    window.location.href = "/Login";
-  };
-
   //function to use the menu btn in mobile screen
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -41,7 +31,7 @@ const Navbar = () => {
           <ul className="md:flex items-center justify-center gap-4 font-poppins hidden">
             <li className="uppercase text-[14px] font-semibold text-hero_green hidden md:block">
               <a href="/">Home</a>
-            </li> 
+            </li>
             <Link
               to="/Howitworks"
               className="text-hero_green font-semibold uppercase font-poppins hidden md:block text-[14px] "
@@ -55,20 +45,25 @@ const Navbar = () => {
               Features
             </Link>
 
-           <Link className="uppercase text-[14px] font-semibold text-hero_green hidden md:block">Contact</Link>
+            <Link className="uppercase text-[14px] font-semibold text-hero_green hidden md:block">
+              Contact
+            </Link>
             <img src={Logo} alt="" className="w-[18px] hidden md:block" />
           </ul>
           <div className="flex gap-4">
-            <Button
-              btnStyle="rounded-sm px-6 py-2 font-semibold border border-[#224F34] text-[12px] font-Poppins uppercase"
-              btnText="LOG IN"
-              btnFunc={gotoLogin}
-            />
-            <Button
-              btnStyle="rounded-sm px-6 py-2 font-semibold uppercase text-white text-[12px] font-Poppins bg-[#224F34]"
-              btnText="SIGN UP"
-              btnFunc={gotoSignup}
-            />
+            <Link to="/Login">
+              <Button
+                btnStyle="rounded-sm px-6 py-2 font-semibold border border-[#224F34] text-[12px] font-Poppins uppercase"
+                btnText="LOG IN"
+              />
+            </Link>
+
+            <Link to="/signup">
+              <Button
+                btnStyle="rounded-sm px-6 py-2 font-semibold uppercase text-white text-[12px] font-Poppins bg-[#224F34]"
+                btnText="SIGN UP"
+              />
+            </Link>
           </div>
         </div>
 
@@ -97,27 +92,30 @@ const Navbar = () => {
                 How It works
               </Link>
               <Link
-              to="/Features"
-              className="text-hero_green font-semibold uppercase font-poppins hidden md:block text-[14px] "
-            >
-              Features
-            </Link>
+                to="/Features"
+                className="text-hero_green font-semibold uppercase font-poppins hidden md:block text-[14px] "
+              >
+                Features
+              </Link>
               <li className="uppercase text-[14px] font-semibold text-hero_green ">
                 <a href="">contact</a>
               </li>
               <img src={Logo} alt="" className="w-[18px] " />
             </ul>
             <div className="flex gap-4 mt-4">
-              <Button
-                btnStyle="rounded-sm px-6 py-2 font-semibold border border-[#224F34] text-[12px] font-Poppins uppercase"
-                btnText="LOG IN"
-                btnFunc={gotoLogin}
-              />
-              <Button
-                btnStyle="rounded-sm px-6 py-2 font-semibold uppercase text-white text-[12px] font-Poppins bg-[#224F34]"
-                btnText="SIGN UP"
-                btnFunc={gotoSignup}
-              />
+              <Link to="/Login">
+                <Button
+                  btnStyle="rounded-sm px-6 py-2 font-semibold border border-[#224F34] text-[12px] font-Poppins uppercase"
+                  btnText="LOG IN"
+                />
+              </Link>
+
+              <Link to="/signup">
+                <Button
+                  btnStyle="rounded-sm px-6 py-2 font-semibold uppercase text-white text-[12px] font-Poppins bg-[#224F34]"
+                  btnText="SIGN UP"
+                />
+              </Link>
             </div>
           </div>
         </div>
