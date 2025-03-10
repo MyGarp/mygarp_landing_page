@@ -81,7 +81,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className=" pb-[10rem] ">
           <div className="lg:hidden w-full absolute left-0 top-16  bg-white flex-row py-4 px-4 ">
-            <ul className="flex  gap-8 items-center justify-center font-poppins ">
+            <ul className="grid grid-rows-1 gap-8  font-poppins ">
               <li className="uppercase text-[14px] font-semibold text-hero_green ">
                 <a href="/">Home</a>
               </li>
@@ -102,7 +102,7 @@ const Navbar = () => {
               </li>
               <img src={Logo} alt="" className="w-[18px] " />
             </ul>
-            <div className="flex items-center justify-center gap-12 mt-4">
+            <div className="flex  gap-4 mt-4">
               <Link to="/Login">
                 <Button
                   btnStyle="rounded-sm px-6 py-2 font-semibold border border-[#224F34] text-[12px] font-Poppins uppercase"
