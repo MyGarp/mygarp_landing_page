@@ -18,7 +18,7 @@ const Hero = () => {
         DRESS TO IMPRESS WITH MY GARP
         </h1>
         <p className="text-[#267D49] lg:text-[12px] md:text-[26px] text-[14px] md:text-left text-center md:mb-12 mb-12 font-poppins lg:w-[40%] md:w-[100%] w-auto font-semibold ">Explore our curated collection of stylish clothing and accessories tailored to your unique taste.</p>
-        <Button btnText="GET STARTED" btnStyle="text-white font-bold lg:text-[12px] md:text-[28px] text-[16px] lg:py-3 py-3 lg:px-8 md:py-4 md:px-12 w-full  md:mb-12 mb-4  bg-hero_green rounded-sm"/>
+        <Button btnText="GET STARTED" btnStyle="text-white font-bold lg:text-[12px] md:text-[28px] text-[16px] lg:py-3 py-3 lg:px-8 md:py-4 md:px-12 md:w-auto w-full  md:mb-12 mb-4  bg-hero_green rounded-sm"/>
        </div>
        {/* first container */}
        <div className='pb-4 '>
