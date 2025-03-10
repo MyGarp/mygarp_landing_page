@@ -1,15 +1,15 @@
 import React from 'react'
-import Login from '../Componet/Login'
-import Navbar2 from '../Componet/ReusableComponent/Navbar2'
-import Navbar from '../Componet/ReusableComponent/Navbar'
-import Footer from '../Componet/ReusableComponent/Footer'
+import Login from '../Component/Login'
+import Navbar2 from '../Component/ReusableComponent/Navbar2'
+import Navbar from '../Component/ReusableComponent/Navbar'
+import Footer from '../Component/ReusableComponent/Footer'
 
 
 const LoginPage = () => {
   return (
     <>
     <Navbar2/>
-    <Login/>
+   <Login/>
     <Footer/>
     </>
   )

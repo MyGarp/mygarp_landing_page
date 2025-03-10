@@ -4,7 +4,8 @@
  
 import SignUpPage from "./Pages/SignUpPage"
 import LoginPage from "./Pages/LoginPage"
-import HowItWorksPage from "./Pages/HowItWorksPage"
+import HowItWorksPage from "./Pages/HowItWorksPage";
+
 import FeaturesPage from "./Pages/FeaturesPage"
 
 
