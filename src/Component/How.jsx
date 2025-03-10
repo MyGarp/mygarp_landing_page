@@ -9,7 +9,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-const HowItWorks = () => {
+const How = () => {
   useEffect(() => {
     Aos.init({
       duration: 1000,
@@ -140,4 +140,4 @@ const HowItWorks = () => {
   );
 };
 
-export default HowItWorks;
+export default How;

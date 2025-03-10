@@ -13,9 +13,6 @@ import HowItWorksPage from "./Pages/HowItWorksPage"
 
 function App() {
   return (
-    <>
-    
-    
  <BrowserRouter>
  
   <Routes>
@@ -26,7 +23,7 @@ function App() {
  <Route path="/Features" element={<FeaturesPage/>} />
   </Routes>
  </BrowserRouter>
- </>
+
   )
 }
 

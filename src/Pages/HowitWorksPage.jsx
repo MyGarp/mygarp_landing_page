@@ -1,10 +1,9 @@
 import React from "react";
-import HowItWorks from "../Component/HowItWorks.jsx";
-
+import How from "../Component/How";
 const HowItWorksPage = () => {
   return (
     <>
-      <HowItWorks />
+     <How/>
     </>
   );
 };
