@@ -1,12 +1,12 @@
-import React from 'react'
- import HowItWorks from '../Componet/HowItWorks.jsx'
+import React from "react";
+import HowItWorks from "../Component/HowItWorks.js";
 
 const HowItWorksPage = () => {
   return (
     <>
-    <HowItWorks/>
+      <HowItWorks />
     </>
-  )
-}
+  );
+};
 
-export default HowItWorksPage
+export default HowItWorksPage;

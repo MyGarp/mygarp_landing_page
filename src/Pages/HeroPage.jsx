@@ -1,18 +1,17 @@
-import React from 'react'
-import Hero from '../Componet/Hero'
-import Navbar from '../Componet/ReusableComponent/Navbar'
-import Footer from '../Componet/ReusableComponent/Footer'
-import Testimonial from '../Componet/Testimonial'
+import React from "react";
+import Hero from "../Component/Hero";
+import Navbar from "../Component/ReusableComponent/Navbar";
+import Footer from "../Component/ReusableComponent/Footer";
+import Testimonial from "../Component/Testimonial";
 const HeroPage = () => {
   return (
     <>
-   
-    <Navbar/>
-    <Hero/>
-   
-    <Footer/>
-    </>
-  )
-}
+      <Navbar />
+      <Hero />
 
-export default HeroPage
+      <Footer />
+    </>
+  );
+};
+
+export default HeroPage;
