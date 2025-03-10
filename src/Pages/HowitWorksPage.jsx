@@ -1,5 +1,5 @@
 import React from "react";
-import HowItWorks from "../Component/HowItWorks.js";
+import HowItWorks from "../Component/HowItWorks.jsx";
 
 const HowItWorksPage = () => {
   return (
