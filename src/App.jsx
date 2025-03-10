@@ -1,7 +1,7 @@
  import HeroPage from "./Pages/HeroPage"
  import { BrowserRouter , Routes,Route} from "react-router-dom"
 
- import Navbar from "./Componet/ReusableComponent/Navbar"
+ 
 import SignUpPage from "./Pages/SignUpPage"
 import LoginPage from "./Pages/LoginPage"
 import HowItWorksPage from "./Pages/HowItWorksPage"
