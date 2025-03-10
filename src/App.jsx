@@ -7,6 +7,7 @@ import LoginPage from "./Pages/LoginPage"
 
 
 import FeaturesPage from "./Pages/FeaturesPage"
+import WorksPage from "./Pages/WorksPage"
 
 
 
@@ -19,7 +20,7 @@ function App() {
  <Route path="/" element={<HeroPage/>} />
  <Route path="/signup" element={<SignUpPage/>} />
  <Route path="/Login" element={<LoginPage/>} />
-
+ <Route path="/Howitworks" element={<WorksPage/>} />
  <Route path="/Features" element={<FeaturesPage/>} />
   </Routes>
  </BrowserRouter>
