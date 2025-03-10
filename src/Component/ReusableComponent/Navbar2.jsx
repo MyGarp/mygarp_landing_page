@@ -21,7 +21,7 @@ const Navbar2 = () => {
     <div>
         <>
       {/* navbar */}
-      <nav className="flex fixed top-[1rem] md:left-8 left-8 md:right-8 right-8 w-auto  items-center justify-between  ">
+      <nav className="flex fixed top-[1rem] md:left-8 lg:opacity-100 md:opacity-25 opacity-25 left-8 md:right-8 right-8 w-auto  items-center justify-between  ">
         {/* span container */}
         <div>
           <Link

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <section className="md:py-8 md:px-28 py-6 px-4 bg-[#224F34] ">
       {/* container to add flex/or grid */}
-      <div className="grid lg:grid-cols-4   lg:items-start flex-rows-1  place-items-start lg:gap-0 gap-6 ">
+      <div className="grid lg:grid-cols-4   lg:items-start flex-rows-1  place-items-start lg:gap-0 gap-6  md:grid-cols-3 grid-cols-3">
         {/* first div */}
         <div className="">
           <h3 className="mb-2 text-white text-[16px] md:text-[24px] font-semibold font-poppins">MyGarp</h3>
@@ -44,11 +44,11 @@ const Footer = () => {
         <div className="">
         <h5 className="text-white lg:text-[12px] md:text-[18px] text-[12px] font-roboto_slab font-bold mb-4">STAY UP TO DATE</h5>
         {/* input and btn */}
-        <div className="flex gap-0">
+        <div className="flex gap-0 w-auto">
         <div className=" lg:px-2 lg:py-2 md:px-12 md:py-4 px-2 py-4 w-auto flex items-center border border-[#A3F3BE] justify-center bg-[#224F34]">
         <input type="text" className="bg-inherit placeholder:lg:text-[12px]  placeholder:md:text-[14px]  placeholder:text-[12px] placeholder:font-poppins placeholder:text-white " placeholder="Enter your email"  />
         </div>
-        <button className=" w-auto px-2 py-2 lg:text-[12px] md:text-[16px] text-[12px] font-poppins bg-[#A3F3BE] text-[#224F34]">SUBMIT</button>
+        <button className=" w-auto px-2 py-2 lg:text-[12px] md:text-[16px] text-[14px] font-poppins bg-[#A3F3BE] text-[#224F34]">SUBMIT</button>
         </div>
         </div>
         {/* end of the four div */}

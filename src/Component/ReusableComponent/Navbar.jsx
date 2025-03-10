@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <>
       {/* navbar */}
-      <nav className="flex fixed top-[1rem] md:left-28 left-8 md:right-28 right-8 w-auto  items-center justify-between  ">
+      <nav className="flex fixed  top-[1rem] md:left-28 left-8 md:right-28 right-8 w-auto lg:opacity-100 md:opacity-25 opacity-15   items-center justify-between  ">
         {/* span container */}
         <div>
           <Link
@@ -79,9 +79,9 @@ const Navbar = () => {
 
       {/* navbar for mobile view */}
       {isMenuOpen && (
-        <div className=" pb-[10rem]">
-          <div className="lg:hidden w-full absolute left-0 top-16  bg-white flex-row py-4 px-4">
-            <ul className="grid grid-cols-1  gap-6 font-poppins ">
+        <div className=" pb-[10rem] ">
+          <div className="lg:hidden w-full absolute left-0 top-16  bg-white flex-row py-4 px-4 ">
+            <ul className="flex  gap-8 items-center justify-center font-poppins ">
               <li className="uppercase text-[14px] font-semibold text-hero_green ">
                 <a href="/">Home</a>
               </li>
@@ -102,7 +102,7 @@ const Navbar = () => {
               </li>
               <img src={Logo} alt="" className="w-[18px] " />
             </ul>
-            <div className="flex gap-4 mt-4">
+            <div className="flex items-center justify-center gap-12 mt-4">
               <Link to="/Login">
                 <Button
                   btnStyle="rounded-sm px-6 py-2 font-semibold border border-[#224F34] text-[12px] font-Poppins uppercase"
