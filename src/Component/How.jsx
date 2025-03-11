@@ -22,7 +22,7 @@ const How = () => {
     <>
       <Navbar2 />
       <section
-        className="md:px-12 px-8 md:mt-[5rem] mt-[11rem] py-4 bg-[#C2EFD4]"
+        className="md:px-8 px-8  top-0 py-4 bg-[#C2EFD4]"
         data-aos="fade-in"
       >
         {/* for introduction */}

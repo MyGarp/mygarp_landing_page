@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <>
       {/* navbar */}
-      <nav className="flex fixed  top-[1rem] md:left-28 left-8 md:right-28 right-8 w-auto lg:opacity-100 md:opacity-25 opacity-15   items-center justify-between  ">
+      <nav className="flex sticky  top-0  bg-[#C2EFD4] lg:px-24 md:px-24 px-8 w-auto   items-center justify-between  ">
         {/* span container */}
         <div>
           <Link
@@ -79,9 +79,9 @@ const Navbar = () => {
 
       {/* navbar for mobile view */}
       {isMenuOpen && (
-        <div className=" pb-[10rem] ">
-          <div className="lg:hidden w-full absolute left-0 top-16  bg-white flex-row py-4 px-4 ">
-            <ul className="grid grid-rows-1 gap-8  font-poppins ">
+       
+          <div className="lg:hidden w-full  left-0 top-16   bg-[#C2EFD4] flex-row py-4 px-4 ">
+            <ul className="grid md:grid-cols-2 grid-cols-1 gap-6 items-center justify-between  font-poppins ">
               <li className="uppercase text-[14px] font-semibold text-hero_green ">
                 <a href="/">Home</a>
               </li>
@@ -118,7 +118,7 @@ const Navbar = () => {
               </Link>
             </div>
           </div>
-        </div>
+    
       )}
     </>
   );

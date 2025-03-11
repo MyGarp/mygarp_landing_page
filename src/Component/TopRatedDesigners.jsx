@@ -8,15 +8,15 @@ import Button from './ReusableComponent/Button'
 const TopRatedDesigners = () => {
   return (
     
-   <section className='md:px-8 px-0 pt-16 pb-2 w-auto '>
+   <section className='md:px-8 px-0 md:mt-8 mt-6 pb-2 w-auto '>
    {/* contaier for header */}
    <div className='mb-3'>
-    <h5 className='text-hero_green text-[16px] text-center font-roboto font-bold'>Meet Our Experienced Designers</h5>
+    <h5 className='text-hero_green lg:text-[16px] md:text-[30px] mb-4 text-[20px] text-center font-roboto font-bold'>Meet Our Experienced Designers</h5>
    </div>
    {/* end */}
    <div className='lg:flex lg:items-center mb-8 lg:justify-center md:gap-2 grid place-items-center justify-center md:grid-cols-2 grid-rows-1 gap-4 '> 
  {/* first_card */}
- <div className='  overflow-hidden bg-[#D3E2D7] transition-all duration-300 w-auto  h-auto cursor-pointer hover:shadow-md'>
+ <div className='   bg-[#D3E2D7] transition-all duration-300 w-auto  h-auto cursor-pointer hover:shadow-md'>
     <div className='w-auto px-4 py-2'>
     <img src={Logo1} alt="" className='object-cover lg:w-[600px] md:w-[400px] w-[350px]' />
     </div>
@@ -34,7 +34,7 @@ const TopRatedDesigners = () => {
 
  </div>
  {/* second card */}
- <div className='  overflow-hidden transition-all bg-[#D3E2D7] duration-300 w-auto h-auto cursor-pointer hover:shadow-md'>
+ <div className='   transition-all bg-[#D3E2D7] duration-300 w-auto h-auto cursor-pointer hover:shadow-md'>
     <div className='w-auto px-4 py-2'>
     <img src={Logo} alt="" className='object-cover  lg:w-[600px] md:w-[400px] w-[350px] ' />
     </div>
@@ -55,7 +55,7 @@ const TopRatedDesigners = () => {
 
    <div className='lg:flex lg:items-center lg:justify-center  md:gap-2 grid place-items-center justify-center  grid-rows-1 md:grid-cols-2 gap-4 '> 
  {/* first_card */}
- <div className='  overflow-hidden bg-[#D3E2D7] transition-all duration-300 w-auto h-auto cursor-pointer hover:shadow-md'>
+ <div className='   bg-[#D3E2D7] transition-all duration-300 w-auto h-auto cursor-pointer hover:shadow-md'>
     <div className='w-auto px-4 py-2'>
     <img src={Logo3} alt="" className='object-cover lg:w-[600px] md:w-[400px] w-[350px]' />
     </div>
@@ -73,7 +73,7 @@ const TopRatedDesigners = () => {
 
  </div>
  {/* second card */}
- <div className='  overflow-hidden bg-[#D3E2D7] transition-all duration-300 w-auto h-auto cursor-pointer hover:shadow-md'>
+ <div className='   bg-[#D3E2D7] transition-all duration-300 w-auto h-auto cursor-pointer hover:shadow-md'>
     <div className='w-auto px-4 py-2'>
     <img src={Logo2} alt="" className='object-cover lg:w-[590px] md:w-[400px] w-[350px]' />
     </div>

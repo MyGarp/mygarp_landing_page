@@ -9,9 +9,9 @@ const Hero = () => {
   return (
     <>
     
-    <section className='py-2 md:px-28 px-8   bg-[#C2EFD4] md:h-auto '>
+    <section className='py-2 md:px-24 px-8   bg-[#C2EFD4] md:h-auto '>
        {/* hero section */}
-       <div className='pt-24 lg:flex md:flex-row items-start justify-center'>
+       <div className='md:pt-16 pt-8  lg:flex md:flex-row items-start justify-center'>
        {/* flexing two containers */}
        <div>
         <h1 className='md:font-semibold text-hero_green md:text-left text-center lg:text-[55px] md:text-[70px] text-[21.1px]  lg:w-[75%] md:w-[100%] w-full mb-4 font-rufina font-bold '>

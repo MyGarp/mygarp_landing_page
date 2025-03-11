@@ -7,7 +7,7 @@ import Logo1 from '/Fashionequip.svg'
 const Signup = () => {
   return (
     <div className='md:px-8 px-0'>
-    <section className='md:mt-24 mt-24 md:grid md:place-items-end md:justify-end grid place-items-center justify-center    '>
+    <section className='md:mt-24 mt-8 md:grid md:place-items-end md:justify-end grid place-items-center justify-center    '>
       {/* flexing two div */}
       <div className='lg:flex lg:items-start lg:justify-start lg:gap-0  lg:mb-4  md:flex-row md:items-center md:justify-center md:w-full  grid grid-rows-2 place-items-center justify-center '>
      
