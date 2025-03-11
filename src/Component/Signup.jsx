@@ -21,7 +21,7 @@ const Signup = () => {
               <input
                 type="text"
                 placeholder="Enter your Name "
-                className="pl-4 w-full h-full focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
+                className="pl-4 w-full h-full text-white focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
               />
             </div>
       </div>
@@ -32,7 +32,7 @@ const Signup = () => {
               <input
                 type="text"
                 placeholder="Enter your Email "
-                className="pl-4 md:pl-2 w-full h-full focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
+                className="pl-4 md:pl-2 w-full text-white h-full focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
               />
             </div>
       </div>
@@ -43,7 +43,7 @@ const Signup = () => {
               <input
                 type="text"
                 placeholder="Enter your number "
-                className="md:pl-4 pl-4 w-full h-full focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
+                className="md:pl-4 pl-4 w-full text-white h-full focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
               />
               
             </div>
@@ -56,7 +56,7 @@ const Signup = () => {
               <input
                 type="text"
                 placeholder="Enter your password"
-                className="pl-4 md:pl-4 w-full h-full focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
+                className="pl-4 md:pl-4 text-white w-full h-full focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
               />
               <h4 className='mt-4 text-[14px] font-poppins text-white '>signup As</h4>
             </div>

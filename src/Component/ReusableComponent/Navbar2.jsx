@@ -18,7 +18,7 @@ const Navbar2 = () => {
   return (
     <>
       {/* navbar */}
-      <nav className="flex sticky  top-0 bg-white pt-2 lg:px-8 md:px-24 px-8 w-auto   items-center justify-between  ">
+      <nav className="flex sticky h-[10vh]  top-0 bg-white pt-2 lg:px-8 md:px-24 px-8 w-auto   items-center justify-between  ">
         {/* span container */}
         <div>
           <Link

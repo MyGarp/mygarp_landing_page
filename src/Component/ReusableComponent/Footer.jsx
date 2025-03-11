@@ -46,7 +46,7 @@ const Footer = () => {
         {/* input and btn */}
         <div className="flex gap-0 w-auto">
         <div className=" lg:px-2 lg:py-2 md:px-12 md:py-4 px-2 py-4 w-auto flex items-center border border-[#A3F3BE] justify-center bg-[#224F34]">
-        <input type="text" className="bg-inherit placeholder:lg:text-[12px]  placeholder:md:text-[14px]  placeholder:text-[12px] placeholder:font-poppins placeholder:text-white " placeholder="Enter your email"  />
+        <input type="text" className="bg-inherit placeholder:lg:text-[12px] text-white focus:outline   placeholder:md:text-[14px]  placeholder:text-[12px] placeholder:font-poppins placeholder:text-white " placeholder="Enter your email"  />
         </div>
         <button className=" w-auto px-2 py-2 lg:text-[12px] md:text-[16px] text-[14px] font-poppins bg-[#A3F3BE] text-[#224F34]">SUBMIT</button>
         </div>

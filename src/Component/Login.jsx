@@ -30,7 +30,7 @@ const Login = () => {
                 <input
                   type="text"
                   placeholder="Enter your Email "
-                  className="pl-4 w-full h-full focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
+                  className="pl-4 w-full h-full focus:outline-none bg-[#224F34] text-white rounded-md placeholder:text-white placeholder:text-[14px] "
                 />
               </div>
             </div>
@@ -43,7 +43,7 @@ const Login = () => {
                 <input
                   type="text"
                   placeholder="Enter your Password "
-                  className="pl-4 md:pl-2 w-full h-full focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
+                  className="pl-4 md:pl-2 w-full h-full text-white focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
                 />
               </div>
             </div>
@@ -56,7 +56,7 @@ const Login = () => {
                 <input
                   type="text"
                   placeholder="Login as"
-                  className="md:pl-4 pl-4 w-full h-full focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
+                  className="md:pl-4 pl-4 w-full h-full text-white focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
                 />
                 <ChevronDown
                   size={18}
