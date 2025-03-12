@@ -47,9 +47,9 @@ const Navbar2 = () => {
               Features
             </Link>
 
-            <Link className="uppercase text-[14px] font-semibold text-hero_green hidden md:block">
+            <div className='text-hero_green font-semibold uppercase font-poppins hidden md:block text-[14px] '>
               Contact
-            </Link>
+            </div>
             <img src={Logo} alt="" className="w-[18px] hidden md:block" />
           </ul>
           
@@ -100,9 +100,9 @@ const Navbar2 = () => {
               >
                 Features
               </Link>
-              <li className="uppercase text-[14px] font-semibold text-hero_green ">
-                <a href="">contact</a>
-              </li>
+              <div className='text-hero_green font-semibold uppercase font-poppins hidden md:block text-[14px] '>
+              Contact
+            </div>
               <img src={Logo} alt="" className="w-[18px] " />
             </ul>
             <div className="flex  gap-4 mt-4">
