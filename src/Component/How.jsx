@@ -40,11 +40,11 @@ const How = () => {
           <div className="grid lg:grid-rows-1 gap-4 lg:place-items-start lg:justify-start place-items-center justify-center">
             {/* two box */}
             {/* first box */}
-            <div className="rounded-sm w-full max-w-[400px]  h-auto   bg-[#D9D9D9DD]">
-              <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold pl-4 mb-6 mt-4 text-hero_green">
+            <div className="rounded-sm w-full max-w-[400px]  h-auto px-4 py-4   bg-[#D9D9D9DD]">
+              <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold mb-6 text-hero_green">
                 Choose Your Style
               </h2>
-              <p className="text-hero_green lg:text-[12px] md:text-[18px] text-[16px] pl-4  font-poppins lg:w-full md:w-full w-[80%] mb-6">
+              <p className="text-hero_green lg:text-[12px] md:text-[18px] text-[16px]  font-poppins lg:w-full md:w-full w-[80%] mb-6">
                 Browse our curated collection of styles or customize an existing
                 design. Select from premium fabrics and materials that match
                 your vision.
@@ -61,11 +61,11 @@ const How = () => {
               </div>
             </div>
             {/* second_box */}
-            <div className="rounded-sm  w-full max-w-[400px] h-auto   bg-[#D9D9D9DD]">
-              <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold pl-4 mb-6 text-hero_green">
+            <div className="rounded-sm  w-full max-w-[400px] h-auto px-4 py-4   bg-[#D9D9D9DD]">
+              <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold  mb-6 text-hero_green">
                 Pick Your Designer
               </h2>
-              <p className="text-hero_green lg:text-[12px] md:text-[18px] text-[16px] pl-4 font-poppins lg:w-[60%] md:w-full w-[60%] mb-6">
+              <p className="text-hero_green lg:text-[12px] md:text-[18px] text-[16px]  font-poppins lg:w-[70%] md:w-full w-[60%] mb-6">
                 Browse designer portfolios, reviews, and previous work. Choose
                 the perfect creator for your style and budget.
               </p>
@@ -93,11 +93,11 @@ const How = () => {
           <div className="grid md:grid-rows-1 gap-4 lg:place-items-end lg:justify-end place-items-center justify-center ">
             {/* two box */}
             {/* fourth_box */}
-            <div className="rounded-sm  w-full max-w-[400px] h-auto  bg-[#D9D9D9DD] ">
-              <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold capitalize  pl-4 mb-6 text-hero_green">
+            <div className="rounded-sm  w-full max-w-[400px] h-auto px-4 py-4  bg-[#D9D9D9DD] ">
+              <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold capitalize   mb-6 text-hero_green">
                 add your measurement
               </h2>
-              <p className="text-hero_green lg:text-[12px] md:text-[18px] text-[16px]  pl-4  font-poppins lg:w-[40%] md:w-full w-[60%] mb-6">
+              <p className="text-hero_green lg:text-[12px] md:text-[18px] text-[16px]   font-poppins lg:w-[70%] md:w-full w-[60%] mb-6">
                 Input your measurements for a perfect fit. Our detailed guide
                 ensures accuracy for your chosen style.
               </p>
@@ -113,11 +113,11 @@ const How = () => {
               </div>
             </div>
             {/* fifth_box */}
-            <div className="rounded-sm  w-full max-w-[400px] h-auto bg-[#D9D9D9DD]">
-              <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold pl-4 mb-6 text-hero_green pt-[0.3px]">
+            <div className="rounded-sm  w-full max-w-[400px] h-auto px-4 py-4 bg-[#D9D9D9DD]">
+              <h2 className=" font-roboto_slab md:text-[24px] text-[24px] font-bold text-hero_green pt-[0.3px]">
                 Order & Receive
               </h2>
-              <p className="text-hero_green lg:text-[12px] text-[18px] pl-4  font-poppins lg:w-[60%] md:w-full w-[70%] mb-6">
+              <p className="text-hero_green lg:text-[12px] text-[18px] font-poppins lg:w-[60%] md:w-full w-[70%] mb-6">
                 Make secure payment and track your order. Get your custom-made
                 piece delivered to your doorstep
               </p>

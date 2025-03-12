@@ -36,14 +36,14 @@ const Login = () => {
             </div>
             {/* second_input password */}
             <div>
-              <h4 className="text-white text-[14px] mb-2  left-2 md:pl-2 font-poppins mt-2">
+              <h4 className="text-white text-[14px] mb-2   left-2 md:pl-2 font-poppins mt-2">
                 Password
               </h4>
               <div className="border-[#E2E8F0] w-auto h-[40px] border relative rounded-md  ">
                 <input
-                  type="text"
+                  type="password"
                   placeholder="Enter your Password "
-                  className="pl-4 md:pl-2 w-full h-full text-white focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
+                  className="pl-4 md:pl-2 text- w-full h-full text-white focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
                 />
               </div>
             </div>
@@ -56,7 +56,7 @@ const Login = () => {
                 <input
                   type="text"
                   placeholder="Login as"
-                  className="md:pl-4 pl-4 w-full h-full text-white focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
+                  className="md:pl-4 pl-4 w-full h-full text-white text- focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
                 />
                 <ChevronDown
                   size={18}

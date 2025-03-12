@@ -21,7 +21,7 @@ const Signup = () => {
               <input
                 type="text"
                 placeholder="Enter your Name "
-                className="pl-4 w-full h-full text-white focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
+                className="pl-4  w-full h-full text-white focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
               />
             </div>
       </div>
@@ -32,7 +32,7 @@ const Signup = () => {
               <input
                 type="text"
                 placeholder="Enter your Email "
-                className="pl-4 md:pl-2 w-full text-white h-full focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
+                className="pl-4 md:pl-4 w-full text-white h-full focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
               />
             </div>
       </div>
@@ -54,7 +54,7 @@ const Signup = () => {
         <h4 className='text-white text-[14px] font-poppins mb-2 md:pl-4 pl-2 mt-2'>Password</h4>
         <div className="border-[#E2E8F0] w-auto h-[40px] border relative rounded-md  ">
               <input
-                type="text"
+                type="password"
                 placeholder="Enter your password"
                 className="pl-4 md:pl-4 text-white w-full h-full focus:outline-none bg-[#224F34]  rounded-md placeholder:text-white placeholder:text-[14px] "
               />
