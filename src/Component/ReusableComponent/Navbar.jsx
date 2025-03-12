@@ -95,11 +95,11 @@ const Navbar = () => {
               </Link>
               <Link
                 to="/Features"
-                className="text-hero_green font-semibold uppercase font-poppins hidden md:block text-[14px] "
+                className="text-hero_green font-semibold uppercase font-poppins text-[14px] "
               >
                 Features
               </Link>
-              <div className="text-hero_green font-semibold uppercase font-poppins hidden md:block text-[14px] ">Contact</div>
+              <div className="text-hero_green font-semibold uppercase font-poppins text-[14px] ">Contact</div>
               <img src={Logo} alt="" className="w-[18px] " />
             </ul>
             <div className="flex  gap-4 mt-4">
