@@ -18,7 +18,7 @@ const Navbar2 = () => {
   return (
     <>
       {/* navbar */}
-      <nav className="flex sticky h-[10vh]  top-0 bg-white pt-2 lg:px-8 md:px-24 px-8 w-auto   items-center justify-between  ">
+      <nav className="flex sticky h-[10vh]  top-0 bg-white pt-2 lg:px-8 md:px-18 px-8 w-auto   items-center justify-between  ">
         {/* span container */}
         <div>
           <Link
@@ -71,9 +71,9 @@ const Navbar2 = () => {
           </div>
 
         {/* menu_icon for mobile screen */}
-        <button onClick={toggleMenu} className="lg:hidden">
+        <button onClick={toggleMenu} className="lg:hidden pb-2">
           {isMenuOpen ? (
-            <X size={30} />
+            <X className='w-[30px] h-[30px] md:w-[36px] md:h-[36px]' />
           ) : (
             <AlignJustify size={30} className="" />
           )}
@@ -83,39 +83,37 @@ const Navbar2 = () => {
       {/* navbar for mobile view */}
       {isMenuOpen && (
        
-          <div className="lg:hidden w-full  left-0 top-16  flex-row py-4 px-4 ">
-            <ul className="grid md:grid-cols-2  grid-rows-1 gap-6 items-center   font-poppins ">
-              <li className="uppercase text-[14px] font-semibold text-hero_green ">
+          <div className="lg:hidden w-full  left-0 top-16  flex-row pt-4 pb-4 md:pt-4 md:pb-12 px-4 ">
+             <ul className=" gap-6  grid  font-poppins ">
+              <li className="uppercase md:text-[30px] text-[22px] flex items-center justify-center  font-semibold text-hero_green ">
                 <a href="/">Home</a>
               </li>
               <Link
                 to="/Howitworks"
-                className="uppercase font-poppins text-[14px] font-semibold text-hero_green"
+                className="uppercase font-poppins  md:text-[30px] text-[22px] flex items-center justify-center font-semibold text-hero_green"
               >
                 How It works
               </Link>
               <Link
                 to="/Features"
-                className="text-hero_green font-semibold uppercase font-poppins text-[14px] "
+                className="text-hero_green  md:text-[30px] font-semibold flex items-center justify-center uppercase font-poppins text-[22px] "
               >
                 Features
               </Link>
-              <div className='text-hero_green font-semibold uppercase font-poppins  text-[14px] '>
-              Contact
-            </div>
-              <img src={Logo} alt="" className="w-[18px] " />
+              <div className="text-hero_green   md:text-[30px] font-semibold flex items-center justify-center uppercase font-poppins text-[22px] ">Contact</div>
+              <img src={Logo} alt="" className="  md:w-[62px] w-[24px] flex items-center justify-center m-auto " />
             </ul>
-            <div className="flex  gap-4 mt-4">
+            <div className="grid grid-rows-2 place-items-center   gap-4 md:mt-8 mt-4">
               <Link to="/Login">
                 <Button
-                  btnStyle="rounded-sm px-6 py-2 font-semibold border border-[#224F34] text-[12px] font-Poppins uppercase"
+                  btnStyle="rounded-md md:px-24 px-8 md:py-4 py-2 font-bold  border-4 border-green-900 md:text-[24px] font-bold text-[18px] font-Poppins uppercase"
                   btnText="LOG IN"
                 />
               </Link>
 
               <Link to="/signup">
                 <Button
-                  btnStyle="rounded-sm px-6 py-2 font-semibold uppercase text-white text-[12px] font-Poppins bg-[#224F34]"
+                  btnStyle="rounded-md md:px-24 md:py-4 px-8 py-2 font-bold uppercase text-white md:text-[24px] text-[18px]  font-Poppins bg-[#224F34]"
                   btnText="SIGN UP"
                 />
               </Link>

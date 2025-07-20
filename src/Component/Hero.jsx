@@ -11,10 +11,10 @@ const Hero = () => {
     
     <section className='py-2 md:px-24 px-8   bg-[#C2EFD4] md:h-auto '>
        {/* hero section */}
-       <div className='md:pt-16 pt-8  lg:flex md:flex-row items-start justify-center'>
+       <div className='md:pt-16 pt-4  lg:flex md:flex-row items-start justify-center'>
        {/* flexing two containers */}
        <div>
-        <h1 className='md:font-semibold text-hero_green md:text-left text-center lg:text-[55px] md:text-[70px] text-[21.1px]  lg:w-[85%] md:w-[100%] w-full mb-4 font-rufina font-bold '>
+        <h1 className='md:font-semibold text-hero_green md:text-left text-center lg:text-[55px] md:text-[70px] text-[24px]  lg:w-[85%] md:w-[100%] w-full mb-4 font-rufina font-bold '>
         DRESS TO IMPRESS WITH  PHASIONABLE
         </h1>
         <p className="text-[#267D49] lg:text-[12px] md:text-[26px] text-[14px] md:text-left text-center md:mb-12 mb-12 font-poppins lg:w-[40%] md:w-[100%] w-auto font-semibold ">Explore our curated collection of stylish clothing and accessories tailored to your unique taste.</p>
