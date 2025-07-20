@@ -23,9 +23,9 @@ const Navbar2 = () => {
         <div>
           <Link
             to="/"
-            className="font-roboto font-bold  lg:text-[18px] md:text-[36px] text-[24px] text-hero_green"
+            className=" lg:font-mono font-roboto font-bold  lg:text-[24px] md:text-[36px] text-[24px] text-hero_green"
           >
-            MyGarp
+           PHASIONABLE
           </Link>
         </div>
         {/* ul icon, login & signup container/div */}

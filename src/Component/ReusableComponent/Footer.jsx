@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="grid lg:grid-cols-4   lg:items-start flex-rows-1  place-items-start lg:gap-0 gap-6  md:grid-cols-3 grid-cols-3">
         {/* first div */}
         <div className="">
-          <h3 className="mb-2 text-white text-[16px] md:text-[24px] font-semibold font-poppins">MyGarp</h3>
+          <h3 className="mb-2 text-white text-[16px] md:text-[24px] lg:text-[22px] font-semibold font-poppins">PHASIONABLE</h3>
           <h5 className="text-white  font-roboto_slab mb-3 font-bold md:text-[18px] text-[12px]">
             Social Media
           </h5>
@@ -46,7 +46,7 @@ const Footer = () => {
         {/* input and btn */}
         <div className="flex gap-0 w-auto">
         <div className=" lg:px-2 lg:py-2 md:px-12 md:py-4 px-2 py-4 w-auto flex items-center border border-[#A3F3BE] justify-center bg-[#224F34]">
-        <input type="text" className="bg-inherit placeholder:lg:text-[12px] text-white focus:outline   placeholder:md:text-[14px]  placeholder:text-[12px] placeholder:font-poppins placeholder:text-white " placeholder="Enter your email"  />
+        <input type="text" className="bg-inherit  px-2 py-2 rounded-sm text-white outline-none flex items-center justify-center focus:ring-2 focus:ring-white   placeholder:md:text-[14px]  placeholder:lg:text-[14px]  placeholder:text-[12px] placeholder:font-poppins placeholder:text-white " placeholder="Enter your email"  />
         </div>
         <button className=" w-auto px-2 py-2 lg:text-[12px] md:text-[16px] text-[14px] font-poppins bg-[#A3F3BE] text-[#224F34]">SUBMIT</button>
         </div>

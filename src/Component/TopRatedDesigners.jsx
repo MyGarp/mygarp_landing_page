@@ -10,8 +10,8 @@ const TopRatedDesigners = () => {
     
    <section className='md:px-8 px-0 md:mt-8 mt-6 pb-2 w-auto '>
    {/* contaier for header */}
-   <div className='mb-3'>
-    <h5 className='text-hero_green lg:text-[16px] md:text-[30px] mb-4 text-[20px] text-center font-roboto font-bold'>Meet Our Experienced Designers</h5>
+   <div className='lg:mb-8 mb-3'>
+    <h5 className='text-hero_green lg:text-[18px] md:text-[30px] mb-4 text-[20px] text-center  font-roboto font-bold'>Meet Our Experienced Designers</h5>
    </div>
    {/* end */}
    <div className='lg:flex lg:items-center mb-8 lg:justify-center md:gap-2 grid place-items-center justify-center md:grid-cols-2 grid-rows-1 gap-4 '> 
